@@ -54,7 +54,7 @@ document.querySelector(".img-1").addEventListener('mouseleave', () => {
 })
 
 /* OPACITY INCREASE ON HOVER */
-
+/*
 var mix_images = document.querySelectorAll(".image");
 console.log(mix_images)
 
@@ -70,4 +70,4 @@ for(var i=0; i < mix_images.length; i++){
             console.log
         })
     }(i));
-}
+*/

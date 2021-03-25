@@ -142,10 +142,43 @@ header {
 
 .image {
     opacity: 0.5;
+    transition: opacity 0.9s;
+}
+
+.image:hover {
+    opacity: 1;
 }
 
 .img-1 {
     position: relative;
+}
+
+.socials {
+    position: fixed;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 38vh;
+    right: 0;
+    margin: 0 0.5rem;
+}
+
+.socials > svg {
+    height: 2rem;
+    padding: 0.3rem;
+    cursor: pointer;
+    transition: height 0.9s;
+}
+
+svg path {
+    fill: gainsboro;
+    opacity: 0.5;
+    transition: opacity 0.9s;
+}
+
+svg:hover path {
+    opacity: 1;
 }
 
 footer {
