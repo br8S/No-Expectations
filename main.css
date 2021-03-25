@@ -13,6 +13,8 @@ header {
     height: 100vh;
     width: 100%;
     background-color: rgb(19, 19, 19);
+    position: relative;
+    z-index: 10;
 }
 
 .logo {
@@ -32,7 +34,7 @@ header {
     position: fixed;
     top: 0;
     z-index: 10;
-    opacity: 0.15;
+    opacity: 0.1;
     pointer-events: none;
 }
 
@@ -137,11 +139,34 @@ header {
 }
 
 .image {
-    opacity: 0.7;
+    opacity: 0.5;
     height: 360px;
     height: 360px;
 }
 
 .img-1 {
     position: relative;
+}
+
+footer {
+    color: #c5ff29;
+    font-family: monospace;
+    height: 3rem;
+    bottom: 0;
+    width: 100%;
+    background-image: linear-gradient(rgba(2, 2, 2, 0.539), rgba(2,2,2,0.539));
+    position: fixed;
+    z-index: 11;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.info > a {
+    color: #c5ff29;
+}
+
+.info {
+    font-size: 11px;
 }
