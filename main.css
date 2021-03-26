@@ -171,13 +171,13 @@ header {
     transition: height 0.9s;
 }
 
-svg path {
+.social-link path {
     fill: gainsboro;
     opacity: 0.5;
     transition: opacity 0.9s;
 }
 
-svg:hover path {
+.social-link:hover path {
     opacity: 1;
 }
 
@@ -213,4 +213,13 @@ footer {
     top: 0;
     right: 0;
     margin: 0.5rem 1rem;
+}
+
+.fa-volume-mute path {
+    opacity: 0.5;
+    transition: opacity 0.9s;
+}
+
+.fa-volume-mute:hover path {
+    opacity: 1;
 }
