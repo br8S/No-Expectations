@@ -11,7 +11,8 @@
     <script defer src="music.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
-    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.2.3/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule="" src="https://unpkg.com/ionicons@5.2.3/dist/ionicons/ionicons.js"></script>
 
     <title>No Expectations</title>
 </head>
@@ -42,7 +43,7 @@
                 <div class="words-container">
                     <div class="motto">LOREM IPSUM DOLOR</div>
                     <div class="description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint quibusdam tempora, in ullam voluptas dolore quo aperiam inventore voluptatibus. Consequatur corporis et animi quis consectetur commodi vel itaque excepturi sunt!</div>
-                    <img class="barb-wire" src="images/giphy (3).gif">
+                    <!--<img class="kiss" src="images/giphy (3).gif">-->
                 </div>
                 
                 <div class="mixes-container">
@@ -72,20 +73,19 @@
             <audio autoplay class="song">
                 <source src="negative culture.mp3" type="audio/mpeg">
             </audio>
-
             <!-- <iframe src="https://open.spotify.com/embed/track/4R0fkMoe2eH10hmGmym9A4" width="80" height="100" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe> -->
     </header>
 
     <footer>
         <p class="info"> Copyright © 2021 No Expectations - All Rights Reserved.</p>
-        <p class="info"> Website by <a href="http://127.0.0.1:5500/portfolio-2.0/index.html">guillermo mata</a>.</p>
+        <p class="info"> Website by <a href="https://br8s.github.io/Portfolio-3.0/">guillermo mata</a>.</p>
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <script>
     
     TweenMax.to(".wrapper", 2, {
-        top: "-100%",
+        top: "-110%",
         ease: Expo.easeInOut,
         delay: 3.6
     });
@@ -126,14 +126,14 @@
         opacity: 0,     
         y: 30,
         ease: Expo.easeInOut,
-        delay: 4.2
+        delay: 4.4
     }, 0.1);
 
     var tl = new TweenMax.staggerFrom(".right-mixes > div", 2, {
         opacity: 0,     
         y: 30,
         ease: Expo.easeInOut,
-        delay: 4.2
+        delay: 4.6
     }, 0.1);
 
     </script>
